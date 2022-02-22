@@ -27,7 +27,7 @@ header nav {
 }
 
 header nav img {
-    border-radius: 40%;
+    border-radius: 50%;
 }
 
 nav ul li {
@@ -42,7 +42,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: rgb(175, 138, 175);
+    color: rgb(177, 119, 177);
 }
 
 /*main*/
@@ -245,7 +245,7 @@ nav ul li a:hover {
 }
 
 .main-info-mapa iframe{
-    border: 3px solid darkblue;
+    border: 3px solid rgb(21, 21, 223);
     border-radius: 10px;
     }
 
@@ -368,7 +368,7 @@ footer {
 }
 
 .footer-info-right iframe {
-    border: 3px solid darkblue;
+    border: 3px solid rgb(134, 134, 204);
     border-radius: 10px;
 }
 
