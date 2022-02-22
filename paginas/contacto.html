@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/index.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet" />
+  <title>Document</title>
+</head>
+
+<body>
+  <!--ENCABEZADO-->
+  <header>
+    <nav>
+      <img src="../images/logo.png" alt="logo" height="100px" width="100px" />
+
+      <input type="text" name="" id="" placeholder="Buscar..." />
+
+      <ul>
+        <li><a href="../index.html"> Inicio</a></li>
+        <li><a href="imagenes.html"> Imagenes</a></li>
+        <li><a href="reserva.html"> Reservas</a></li>
+        <li><a href="contacto.html"> Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- INFORMACION DEL CONTACTO -->
+  <main class="main-container">
+    <section class="box-contacto">
+      <fieldset>
+
+        <h2>Contacto</h2>
+
+        <form action="">
+          <input type="text" name="nombre" id="" placeholder="Nombre" required />
+          <input type="text" name="apellido" id="" placeholder="Apellido" required />
+
+          <br />
+          <br />
+
+          <input type="email" name="email" id="" placeholder="Email" required />
+
+          <br />
+          <br />
+
+          <label class="texto" for="comentario"> Deja tu comentario</label>
+
+          <br />
+
+          <textarea name="comentario" id="" cols="40" rows="15" placeholder="Escribe"></textarea>
+
+          <br /><br />
+
+          <input type="reset" value="Borrar" />
+          <input type="submit" value="Enviar" />
+        </form>
+      </fieldset>
+    </section>
+  </main>
+
+  <!-- PIE DE PAFGINA -->
+  <footer>
+    <p class="titulo-s">Acerca de nosotros</p>
+
+    <div class="footer-info-container">
+      <div class="footer-info-left">
+        <!-- LISTA -->
+        <ul>
+          <li><a href="../footer/quienes-somos.html"> Quienes somos</a></li>
+          <li><a href="../footer/ubicacion.html"> Ubicación</a></li>
+          <li><a href="contacto.html"> Contactenos</a></li>
+        </ul>
+        <br>
+        <!-- REDES SOCIALES -->
+        <div class="redes">
+          <a href="https://es-es.facebook.com"><img class="img-redes" src="../images/facebook.svg" alt="Facebook"
+              height="40px" width="40px" /></a>
+          <a href="https://www.instagram.com"><img class="img-redes" src="../images/instagram.svg" alt="Instagram"
+              height="40px" width="40px" /></a>
+          <a href="https://web.whatsapp.com"><img class="img-redes" src="../images/whatsapp.svg" alt="WhatsApp"
+              height="40px" width="40px" /></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="final-footer">
+      <div class="left-footer-space">
+        <p>Condiciones</p>
+        <p>Politicas</p>
+      </div>
+
+      <div class="right-footer-space">
+        <p class="label-footer__cp">copyright &copy; 2022</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
