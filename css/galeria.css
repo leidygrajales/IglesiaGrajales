@@ -1,26 +1,14 @@
-
-
-
 /* Galeria Custom Styles */
-
-
 main .content {
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-main .content img{
-    box-shadow: -2.5px 2.5px rgba(128, 128, 128, 0.5);
-}
+  padding-left: 1rem;
+  padding-right: 1rem; }
+  main .content img {
+    box-shadow: -2.5px 2.5px rgba(128, 128, 128, 0.5); }
 
 .row {
-    justify-content: space-between;
-    --bs-gutter-x: 0 !important;
-}
+  justify-content: space-between;
+  --bs-gutter-x: 0 !important; }
 
-@media (min-width: 992px)
- {
-    .col-lg-4 {
-        width: 32.5% !important;
-    }
-}
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 32.5% !important; } }
