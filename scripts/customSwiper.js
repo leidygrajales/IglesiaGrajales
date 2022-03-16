@@ -1,7 +1,7 @@
 var swiper = new Swiper(".myCustomSwiper", {
     effect: "fade",
     autoplay: {
-        delay: 3000,
+        delay: 5000,
         disableOnInteraction: false,
     },
     navigation: {
